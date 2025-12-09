@@ -1,0 +1,40 @@
+body {
+  background-color: #383838;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent button {
+  padding: 12px 18px;
+  margin: 8px;
+  background-color: rgb(45, 135, 130);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.parent button:hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.1);
+  background-color: #ff5454;
+}
+
+
+.parent h1 {
+  font-size: 45px;
+  padding: 50px 90px;
+  width: fit-content;
+  margin: 10px;
+  background-color: rgb(111, 110, 110);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
